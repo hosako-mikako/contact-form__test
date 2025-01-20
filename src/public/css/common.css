@@ -1,0 +1,21 @@
+.header {
+    border-bottom: 3px solid #f2f1f2;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    font-family: bitter regular;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #6b4f3f;
+    text-align: center;
+    margin-bottom: 10px;
+}

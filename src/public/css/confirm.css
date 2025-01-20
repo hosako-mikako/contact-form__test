@@ -1,0 +1,98 @@
+/* 基本設定 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* コンテンツ全体のスタイル */
+.confirm__content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 見出し */
+.confirm__heading h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #6b4f3f;
+    margin-bottom: 20px;
+}
+
+/* テーブルのスタイル */
+.confirm-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.confirm-table__inner {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.confirm-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.confirm-table__header {
+    background-color: #d3b8a1;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    width: 30%;
+    font-weight: bold;
+}
+
+.confirm-table__text {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.confirm-table__text input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    font-size: 14px;
+    background-color: #fdfdfd;
+}
+
+/* ボタンのスタイル */
+.form__button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form__button-submit,
+.form__button-modify {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form__button-submit {
+    background-color: #6b4f3f;
+}
+
+.form__button-submit:hover {
+    background-color: #55392f;
+}
+
+.form__button-modify {
+    background-color: #888;
+}
+
+.form__button-modify:hover {
+    background-color: #666;
+}

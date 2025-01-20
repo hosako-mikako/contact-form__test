@@ -1,0 +1,81 @@
+.contact-form__content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form__group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form__group-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+
+.form__input--name,
+.form__input--email,
+.form__input--tel,
+.form__input--address,
+.form__input--building,
+.form__input--inquiry-type {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.form__input--name input,
+.form__input--email input,
+.form__input--tel input,
+.form__input--address input,
+.form__input--building input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.form__input--tel input {
+    width: 40px;
+    /* 電話番号の各桁の幅を調整 */
+}
+
+.form__input--inquiry-type select {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form__button-submit {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* レスポンシブデザイン（例） */
+@media (max-width: 768px) {
+    .contact-form__content {
+        padding: 10px;
+    }
+
+    .form__input--name input,
+    .form__input--email input,
+    .form__input--tel input,
+    .form__input--address input,
+    .form__input--building input,
+    .form__input--inquiry-type select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

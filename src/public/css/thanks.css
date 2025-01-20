@@ -1,0 +1,70 @@
+/* 基本設定 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #6b4f3f;
+}
+
+/* メインコンテンツのスタイル */
+.thanks__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+/* 背景のThank youテキスト */
+.thanks__content::before {
+    content: "Thank you";
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    white-space: nowrap;
+}
+
+/* メッセージテキスト */
+.thanks__content h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    z-index: 1;
+    color: #6b4f3f;
+}
+
+/* ボタンコンテナ */
+.home__button {
+    z-index: 1;
+}
+
+/* ボタンスタイル */
+.home__button-submit {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #6b4f3f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.home__button-submit:hover {
+    background-color: #55392f;
+}
+
+/* ボタンのテキストを中央に配置 */
+.home__button-submit::after {
+    content: "HOME";
+    display: inline-block;
+}
