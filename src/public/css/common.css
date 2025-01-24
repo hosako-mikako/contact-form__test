@@ -1,3 +1,7 @@
+body {
+    font-family: 'Skolar PE Regular';
+}
+
 .header {
     border-bottom: 3px solid #f2f1f2;
 }
@@ -9,7 +13,7 @@
 }
 
 .header__logo {
-    font-family: bitter regular;
+    font-family: skolar pe regular';
     font-size: 30px;
 }
 
